@@ -1,0 +1,88 @@
+.transfer-form {
+  background: #ffffff;
+  border: 1px solid #e5eaf2;
+  border-radius: 1rem;
+  box-shadow: 0 12px 30px rgba(30, 64, 175, 0.07);
+  padding: 1.5rem;
+}
+
+.transfer-form h2 {
+  color: #111827;
+  font-size: 1.25rem;
+  margin: 0 0 1.25rem;
+}
+
+.transfer-form__fields {
+  display: grid;
+  gap: 0.6rem;
+}
+
+.transfer-form__fields label {
+  color: #334155;
+  font-size: 0.88rem;
+  font-weight: 700;
+}
+
+.transfer-form__fields input,
+.transfer-form__fields select {
+  border: 1px solid #aeb8c6;
+  border-radius: 0.35rem;
+  font: inherit;
+  margin-bottom: 0.7rem;
+  padding: 0.65rem;
+}
+
+.transfer-form__fields input:focus,
+.transfer-form__fields select:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.14);
+  outline: none;
+}
+
+.transfer-form__fields button,
+.transfer-form__toast button {
+  cursor: pointer;
+}
+
+.transfer-form__fields button {
+  background: #2563eb;
+  border: 0;
+  border-radius: 0.5rem;
+  color: #ffffff;
+  font: inherit;
+  font-weight: 600;
+  padding: 0.75rem;
+}
+
+.transfer-form__fields button:disabled {
+  cursor: wait;
+  opacity: 0.65;
+}
+
+.transfer-form__toast {
+  align-items: center;
+  border-radius: 0.35rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+}
+
+.transfer-form__toast--error {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.transfer-form__toast button {
+  background: transparent;
+  border: 0;
+  color: inherit;
+  font-size: 1.25rem;
+}
+
+.transfer-form__success {
+  border-top: 1px solid #d9dee7;
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  text-align: center;
+}
